@@ -9,11 +9,11 @@ cp1 = 2500. # J/kgK
 m2 = 0.1 # kg/s
 cp2 = 4190. # J/kgK
 
-k = 300.
-A = 10.
+k = 300. # W/(m^2 * K)
+A = 10. # m^2
 
-Tin1 = 50. # *C
-Tin2 = 60. # *C
+Tin1 = 400. # K
+Tin2 = 300. # K
 
 R = wzory_fizyczne.obliczenia_R(m1,cp1,m2,cp2)
 print( f"R = {R: .4f}" )
