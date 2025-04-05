@@ -28,5 +28,5 @@ print( f"e = {e: .4f}" )
 Tout2 = wzory_fizyczne.wymiennik_tout2(e,Tin1,Tin2)
 Tout1 = wzory_fizyczne.wymiennik_tout1(e,Tin1,Tin2,m1,cp1,m2,cp2)
 
-print( f"Tout2 = {Tout2: .1f}*C" )
-print( f"Tout1 = {Tout1: .1f}*C" )
+print( f"Tout2 = {Tout2: .1f}K" )
+print( f"Tout1 = {Tout1: .1f}K" )
